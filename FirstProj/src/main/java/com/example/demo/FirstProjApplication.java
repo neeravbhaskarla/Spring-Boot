@@ -8,6 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class FirstProjApplication {
 
 	public static void main(String[] args) {
+		// SpringApplication.run returns ConfigurableApplicationContext
 		ConfigurableApplicationContext context = SpringApplication.run(FirstProjApplication.class, args);
 		
 		Alien a1 = context.getBean(Alien.class);
