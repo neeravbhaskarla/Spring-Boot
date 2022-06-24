@@ -8,7 +8,7 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class HomePage {
 	@RequestMapping("welcome")
-	public String welcome(HttpServletRequest req) {
+	public String WelcomePage(HttpServletRequest req) {
 		HttpSession session = req.getSession();
 		String fname = req.getParameter("fname");
 		String lname = req.getParameter("lname");
