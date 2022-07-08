@@ -12,6 +12,6 @@
         }
     </style>
     <body>
-        <h1>Welcome, ${fname} ${lname} ${name}</h1>
+        <h1>Welcome, ${obj.aid} ${obj.aname} ${obj.alang}</h1>
     </body>
 </html>
