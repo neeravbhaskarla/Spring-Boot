@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.frankmoley.lil.learningspring.LearningSpringApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.785 s <<< FAILURE! - in com.frankmoley.lil.learningspring.LearningSpringApplicationTests
+contextLoads  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.NullPointerException: Cannot invoke "com.frankmoley.lil.learningspring.util.DateUtils.createDateFromDateString(String)" because "this.dateUtils" is null
+
