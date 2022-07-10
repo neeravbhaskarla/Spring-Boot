@@ -16,3 +16,6 @@ It fetches or posts the data from the local DB, postgres which runs as a docker 
 
 ## Room Services
 This projects uses Postgres and Displays the data of guests and reservations availablity. This project uses Thymeleaf for rendering displaying data in HTML pages.
+
+## Room Services REST
+This project is just applying REST functionalites for exisitng Room Services project
